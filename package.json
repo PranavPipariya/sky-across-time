@@ -1,0 +1,20 @@
+{
+  "name": "same-sky",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "stars": "node tools/prepare_stars.js"
+  },
+  "devDependencies": {
+    "astronomy-engine": "^2.1.19",
+    "d3-celestial": "^0.7.35",
+    "puppeteer-core": "^23.6.0",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4"
+  }
+}

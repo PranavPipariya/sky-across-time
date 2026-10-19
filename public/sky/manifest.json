@@ -1,0 +1,28 @@
+{
+  "source": "milkyway_2020_8k.exr",
+  "k": 7.458262320866337,
+  "width": 8192,
+  "height": 4096,
+  "tiles": [
+    {
+      "file": "tile_0.jpg",
+      "u0": 0.0,
+      "u1": 0.5,
+      "raFrom": 180.0,
+      "raTo": 0.0,
+      "decFrom": 90,
+      "decTo": -90
+    },
+    {
+      "file": "tile_1.jpg",
+      "u0": 0.5,
+      "u1": 1.0,
+      "raFrom": 0.0,
+      "raTo": 180.0,
+      "decFrom": 90,
+      "decTo": -90
+    }
+  ],
+  "preview": "preview_2k.jpg",
+  "mapping": "u = fract(0.5 - RA/360), v = (90 - Dec)/180"
+}
